@@ -1,8 +1,15 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+  }
+
 .background {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
     height: 500px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg/bg.jpg);
     background-size: cover;
-    object-fit: fill;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
