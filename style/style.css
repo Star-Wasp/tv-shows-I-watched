@@ -29,10 +29,6 @@ body {
     font-size: 70px;
 }
 
-.subheader-text {
-    font-size: 40px;
-}
-
 .sections {
     margin-left: 10%;
     margin-right: 10%;
@@ -41,4 +37,14 @@ body {
 
 .paragraf {
     width: 15em;
+}
+
+.show-img {
+    aspect-ratio: 2 / 3;
+    border: solid black 2px;
+    width: 10em !important;
+}
+
+.container {
+    margin-bottom: 100px;
 }
